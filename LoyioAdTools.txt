@@ -171,12 +171,6 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 ^https?+:\/\/dsa-mfp\.fengshows\.cn\/mfp\/mfpMultipleDelivery\.do\?.+?adunitid url reject-200
 
 # G
-# > Google
-# >> Youtube
-#^https?+:\/\/.+?\.googlevideo\.com\/.+?(?>&oad|ctier) url reject-200
-#^https?+:\/\/\w+?\.youtube\.com\/api\/.+?ad url reject-200
-#^https?+:\/\/\w+?\.youtube\.com\/p(?>agead|tracking) url reject-200
-#^https?+:\/\/youtubei\.googleapis\.com\/youtubei\/.+?(?>ad|log)_ url reject-200
 # > Gofun
 ^https?+:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json url reject-200
 # > 国泰君安
@@ -378,9 +372,6 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 ^https?+:\/\/3gimg\.qq\.com\/tencentMapTouch\/app\/activity\/ url reject-200
 ^https?+:\/\/3gimg\.qq\.com\/tencentMapTouch\/splash\/ url reject-200
 ^https?+:\/\/4gimg\.map\.qq\.com\/mwaSplash\/ url reject-200
-# >> 腾讯视频
-# ^https?+:\/\/vv\.video\.qq\.com\/getvmind\? url reject-200
-# ^https?+:\/\/(?:(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/.+?\.tc\.qq\.com\/.+?p201\.1\.mp4\? url reject-200
 # >> 腾讯新闻
 ^https?+:\/\/r\.inews\.qq\.com\/(?>adsBlacklist|getFullScreenPic|getQQNewsRemoteConfig) url reject-200
 # >> 腾讯体育
@@ -394,8 +385,6 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 ^https?+:\/\/tiasdk\.app\.wechat\.com\/retrieval\/getAdInfo$ url reject-200
 ^https?+:\/\/mm\.app\.joox\.com\/retrieval\/getAd url reject-200
 ^https?+:\/\/mm\.app\.joox\.com\/billsrv\/clientBatchAdReport$ url reject-200
-# >> 微信
-# ^https?+:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad) url reject-200
 # > 澎湃新闻
 ^https?+:\/\/adpai\.thepaper\.cn\/.+?&ad= url reject-200
 # > 太平洋
