@@ -204,11 +204,6 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 ^https?+:\/\/www\.bodivis\.com\.cn\/app\/splashAdvertise url reject-200
 
 # J
-# > 京东
-^https?+:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$ url reject-200
-^https?+:\/\/b?dsp-x\.jd\.com\/adx\/ url reject-200
-^https?+:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo url reject-200
-^https?+:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture url reject-200
 # > 界面新闻
 ^https?+:\/\/img\.jiemian\.com\/ads\/ url reject-200
 # > 驾校一点通
