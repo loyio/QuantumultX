@@ -130,6 +130,8 @@ hostname = *.amemv.com, *.iydsj.com, *.k.sohu.com, *.kakamobi.cn, *.kingsoft-off
 ^https?+:\/\/learn\.chaoxing\.com\/apis\/service\/appConfig\? url reject-200
 
 # D
+# > 豆瓣
+^https?+:\/\/api\.douban\.com\/v\d\/app_ads\/ url reject-200
 # > 斗鱼
 ^https?+:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo url reject-200
 # > 当当
