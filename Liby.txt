@@ -452,13 +452,6 @@ host, de.as.pptv.com, AdBlock
 host, tj.playcvn.com, AdBlock
 host, tu.cvnad.com, AdBlock
 # (S)
-# > Sina
-host-suffix, beacon.sina.com.cn, AdBlock
-host, adimg.vue.weibo.com, AdBlock
-host, sax.sina.com.cn, AdBlock
-host, saxn.sina.com.cn, AdBlock
-host, saxs.sina.com.cn, AdBlock
-host, u1.img.mobile.sina.cn, AdBlock
 # > Sohu
 host-suffix, ad.sohu.com, AdBlock
 host-suffix, ads.sohu.com, AdBlock
