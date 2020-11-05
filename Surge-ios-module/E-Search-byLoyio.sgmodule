@@ -1,7 +1,8 @@
-# E-Search By Loyio
+#!name=E-Search By Loyio
+#!desc=Safari Search Add-ons by Loyio
+
 # Modified by Loyio
 # From LoyioSurge (https://github.com/loyelee/SurgeMacModule/blob/master/Q-Search.sgmodule)
-#!desc=Safari Search Add-ons by Loyio
 
 
 # - Safari 内输入 命令 + 空格 + 关键词 快速指定搜索引擎搜索
