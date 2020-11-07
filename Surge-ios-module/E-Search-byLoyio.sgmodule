@@ -1,4 +1,4 @@
-#!name=E-Search By Loyio
+name=E-Search By Loyio
 #!desc=Safari Search Add-ons by Loyio
 
 # Modified by Loyio
@@ -54,119 +54,119 @@
 
 [URL Rewrite]
 #gm   (Google图片)
-^https:\/\/m.so.com\/s\?q=gm\+([^&amp;]+).+ https://www.google.com/search?&amp;tbm=isch&amp;q=$1 302
+^https:\/\/m.so.com\/s\?q=gm\+([^&]+).+ https://www.google.com/search?&tbm=isch&q=$1 302
 # gh   (GitHub)
-^https:\/\/m.so.com\/s\?q=gh\+([^&amp;]+).+ https://github.com/search?q=$1 302
+^https:\/\/m.so.com\/s\?q=gh\+([^&]+).+ https://github.com/search?q=$1 302
 
 # sof  (Stack Overflow)
-^https:\/\/m.so.com\/s\?q=sof\+([^&amp;]+).+ https://stackoverflow.com/search?q=$1 302
+^https:\/\/m.so.com\/s\?q=sof\+([^&]+).+ https://stackoverflow.com/search?q=$1 302
 
 # se  (StackExchange)
-^https:\/\/m.so.com\/s\?q=se\+([^&amp;]+).+ https://stackexchange.com/search?q=$1 302
+^https:\/\/m.so.com\/s\?q=se\+([^&]+).+ https://stackexchange.com/search?q=$1 302
 
 # wa  (WolframAlpha)
-^https:\/\/m.so.com\/s\?q=wa\+([^&amp;]+).+ https://www.wolframalpha.com/input/?i=$1 302
+^https:\/\/m.so.com\/s\?q=wa\+([^&]+).+ https://www.wolframalpha.com/input/?i=$1 302
 
 # wiki  (维基百科)
-^https:\/\/m.so.com\/s\?q=wiki(\+|%20)([^&amp;]+).+ http://wikipedia.org/wiki/$2 302
+^https:\/\/m.so.com\/s\?q=wiki(\+|%20)([^&]+).+ http://wikipedia.org/wiki/$2 302
 
 # wk  (维基中文)
-^https:\/\/m.so.com\/s\?q=wk(\+|%20)([^&amp;]+).+ https://zh.wikipedia.org/wiki/$2 302
+^https:\/\/m.so.com\/s\?q=wk(\+|%20)([^&]+).+ https://zh.wikipedia.org/wiki/$2 302
 
 # mg  (Magi)
-^https:\/\/m.so.com\/s\?q=mg(\+|%20)([^&amp;]+).+ https://magi.com/search?q=$2
+^https:\/\/m.so.com\/s\?q=mg(\+|%20)([^&]+).+ https://magi.com/search?q=$2
 
 # tf  (Google 搜索 TestFlight)
-^https:\/\/m.so.com\/s\?q=tf(\+|%20)([^&amp;]+).+ https://www.google.com/search?as_q=$2&amp;as_sitesearch=testflight.apple.com 302
+^https:\/\/m.so.com\/s\?q=tf(\+|%20)([^&]+).+ https://www.google.com/search?as_q=$2&amp;as_sitesearch=testflight.apple.com 302
 
-# &gt; 翻译
+# > 翻译
 # yd   (有道)
-^https:\/\/m.so.com\/s\?q=yd\+([^&amp;]+).+ http://dict.youdao.com/search?q=$1 302
+^https:\/\/m.so.com\/s\?q=yd\+([^&]+).+ http://dict.youdao.com/search?q=$1 302
 
 # trc  (Google 译至中)
-^https:\/\/m.so.com\/s\?q=trc\+([^&amp;]+).+ https://translate.google.com/#view=home&amp;op=translate&amp;sl=auto&amp;tl=zh-CN&amp;text=$1 302
+^https:\/\/m.so.com\/s\?q=trc\+([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$1 302
 
 # tre  (Google 译至英)
-^https:\/\/m.so.com\/s\?q=tre\+([^&amp;]+).+ https://translate.google.com/#view=home&amp;op=translate&amp;sl=auto&amp;tl=en&amp;text=$1 302
+^https:\/\/m.so.com\/s\?q=tre\+([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$1 302
 
 # trj  (Google 译至日)
-^https:\/\/m.so.com\/s\?q=trj\+([^&amp;]+).+ https://translate.google.com/#view=home&amp;op=translate&amp;sl=auto&amp;tl=ja&amp;text=$1 302
+^https:\/\/m.so.com\/s\?q=trj\+([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=ja&text=$1 302
 
 
 # 社区
 # db：豆瓣
-^https:\/\/m.so.com\/s\?q=db\+([^&amp;]+).+ https://www.douban.com/search?source=suggest&amp;q=$1 302
+^https:\/\/m.so.com\/s\?q=db\+([^&]+).+ https://www.douban.com/search?source=suggest&q=$1 302
 
 # zh: 知乎
-^https:\/\/m.so.com\/s\?q=zh\+([^&amp;]+).+ https://www.zhihu.com/search?type=content&amp;q=$1 302
+^https:\/\/m.so.com\/s\?q=zh\+([^&]+).+ https://www.zhihu.com/search?type=content&q=$1 302
 
 # wb: 微博
-^https:\/\/m.so.com\/s\?q=wb\+([^&amp;]+).+ https://s.weibo.com/weibo/$1 302
+^https:\/\/m.so.com\/s\?q=wb\+([^&]+).+ https://s.weibo.com/weibo/$1 302
 
 # wx: 微信
-^https:\/\/m.so.com\/s\?q=wx\+([^&amp;]+).+ https://weixin.sogou.com/weixinwap?query=$1 302
+^https:\/\/m.so.com\/s\?q=wx\+([^&]+).+ https://weixin.sogou.com/weixinwap?query=$1 302
 
 # rd  (Reddit)
-^https:\/\/m.so.com\/s\?q=rd\+([^&amp;]+).+ https://www.reddit.com/search?q=$1 302
+^https:\/\/m.so.com\/s\?q=rd\+([^&]+).+ https://www.reddit.com/search?q=$1 302
 
 # tw (Twitter)
-^https:\/\/m.so.com\/s\?q=tw\+([^&amp;]+).+ https://twitter.com/search?q=$1 302
+^https:\/\/m.so.com\/s\?q=tw\+([^&]+).+ https://twitter.com/search?q=$1 302
 
 # ssp: 少数派
-^https:\/\/m.so.com\/s\?q=ssp\+([^&amp;]+).+ https://sspai.com/search/post/$1 302
+^https:\/\/m.so.com\/s\?q=ssp\+([^&]+).+ https://sspai.com/search/post/$1 302
 
 # csdn: CSDN
-^https:\/\/m.so.com\/s\?q=csdn\+([^&amp;]+).+ https://so.csdn.net/so/search/s.do?q=$1&amp;t=&amp;u= 302
+^https:\/\/m.so.com\/s\?q=csdn\+([^&]+).+ https://so.csdn.net/so/search/s.do?q=$1&t=&u= 302
 
 # &gt; 购物
 # zdm: 什么值得买
-^https:\/\/m.so.com\/s\?q=zdm\+([^&amp;]+).+ https://search.smzdm.com/?c=home&amp;s=$1&amp;v=b 302
+^https:\/\/m.so.com\/s\?q=zdm\+([^&]+).+ https://search.smzdm.com/?c=home&s=$1&v=b 302
 
 # amz: 亚马逊
-^https:\/\/m.so.com\/s\?q=amz\+([^&amp;]+).+ https://www.amazon.cn/gp/aw/s/?k=$1 302
+^https:\/\/m.so.com\/s\?q=amz\+([^&]+).+ https://www.amazon.cn/gp/aw/s/?k=$1 302
 
 # jd : 京东
-^https:\/\/m.so.com\/s\?q=jd\+([^&amp;]+).+ https://search.jd.com/Search?keyword=$1 302
+^https:\/\/m.so.com\/s\?q=jd\+([^&]+).+ https://search.jd.com/Search?keyword=$1 302
 
 # tb: 淘宝
-^https:\/\/m.so.com\/s\?q=tb\+([^&amp;]+).+ https://s.taobao.com/search?q=$1 302
+^https:\/\/m.so.com\/s\?q=tb\+([^&]+).+ https://s.taobao.com/search?q=$1 302
 
 # tm: 天猫
-^https:\/\/m.so.com\/s\?q=tm\+([^&amp;]+).+ https://list.tmall.com/search_product.htm?q=$1 302
+^https:\/\/m.so.com\/s\?q=tm\+([^&]+).+ https://list.tmall.com/search_product.htm?q=$1 302
 
 # 视频资源
 
 # ac (Acfun)
-^https:\/\/m.so.com\/s\?q=ac\+([^&amp;]+).+ https://www.acfun.cn/search?keyword==$1 302
+^https:\/\/m.so.com\/s\?q=ac\+([^&]+).+ https://www.acfun.cn/search?keyword==$1 302
 
 # bli (哔哩哔哩) 
-^https:\/\/m.so.com\/s\?q=bli\+([^&amp;]+).+ https://search.bilibili.com/all?keyword=$1 302
+^https:\/\/m.so.com\/s\?q=bli\+([^&]+).+ https://search.bilibili.com/all?keyword=$1 302
 
 # ytb  (YouTube)
-^https:\/\/m.so.com\/s\?q=ytb\+([^&amp;]+).+ https://www.youtube.com/results?search_query=$1 302
+^https:\/\/m.so.com\/s\?q=ytb\+([^&]+).+ https://www.youtube.com/results?search_query=$1 302
 
 # ph  (PornHub) 
-^https:\/\/m.so.com\/s\?q=ph\+([^&amp;]+).+ https://pornhub.com/video/search?search=$1 302
+^https:\/\/m.so.com\/s\?q=ph\+([^&]+).+ https://pornhub.com/video/search?search=$1 302
 
 # gd  (Google Drive)
-^https:\/\/m.so.com\/s\?q=gd\+([^&amp;]+).+ https://www.google.com/search?q=%22Google+Drive%22+$1 302
+^https:\/\/m.so.com\/s\?q=gd\+([^&]+).+ https://www.google.com/search?q=%22Google+Drive%22+$1 302
 
 # tgd  (t.me/gdurl 搜索 Google Drive 资源)
-^https:\/\/m.so.com\/s\?q=tgd\+([^&amp;]+).+ https://t.me/s/gdurl?q=$1 302
+^https:\/\/m.so.com\/s\?q=tgd\+([^&]+).+ https://t.me/s/gdurl?q=$1 302
 
 # 默认搜索
 
 # bi: 必应
-^https:\/\/m.so.com\/s\?q=bi\+([^&amp;]+).+ https://cn.bing.com/search?q=$1 302
+^https:\/\/m.so.com\/s\?q=bi\+([^&]+).+ https://cn.bing.com/search?q=$1 302
 
 # bd: 百度
-^https:\/\/m.so.com\/s\?q=bd\+([^&amp;]+).+ https://www.baidu.com/s?wd=$1 302
+^https:\/\/m.so.com\/s\?q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
 
 # ddg: DuckDuckGo 
-^https:\/\/m.so.com\/s\?q=ddg\+([^&amp;]+).+ https://duckduckgo.com/?ia=about&amp;q=$1 302
+^https:\/\/m.so.com\/s\?q=ddg\+([^&]+).+ https://duckduckgo.com/?ia=about&amp;q=$1 302
 
 # 无指令: 谷歌
-^https:\/\/m.so.com\/s\?q=([^&amp;]+).+ https://www.google.com/search?q=$1 302
+^https:\/\/m.so.com\/s\?q=([^&]+).+ https://www.google.com/search?q=$1 302
 
 
 [MITM]
